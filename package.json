@@ -1,0 +1,24 @@
+{
+  "name": "jiujitsudatabase",
+  "version": "1.0.0",
+  "description": "Database for JiuJitsu app",
+  "main": "express.js",
+  "scripts": {
+    "test": "npm gibberish",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manolte96/JiuJitsuDatabase.git"
+  },
+  "author": "Mayra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manolte96/JiuJitsuDatabase/issues"
+  },
+  "homepage": "https://github.com/manolte96/JiuJitsuDatabase#readme",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^4.18.1"
+  }
+}
