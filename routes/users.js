@@ -12,7 +12,7 @@ const router = express.Router()
 controllers = require("../controllers/users.js")
 
 //establish routes
-// router.post("/createUser", [auth.checkJwt, auth.isAdmin], controllers.createUser)
+ router.post("/createUser", [auth.checkJwt, auth.isAdmin], controllers.createUser)
 //changed route to exclude auth checks so anyone can create a login
 router.get("/getAllUsers", controllers.getAllUsers)
 
